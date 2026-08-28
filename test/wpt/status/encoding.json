@@ -25,16 +25,13 @@
     "requires": ["small-icu"]
   },
   "textdecoder-fatal-single-byte.any.js": {
-    "requires": ["full-icu"],
-    "skip": "The iso-8859-16 encoding is not supported"
+    "requires": ["small-icu"]
   },
   "textdecoder-labels.any.js": {
-    "requires": ["full-icu"],
-    "skip": "The iso-8859-16 encoding is not supported"
+    "requires": ["full-icu"]
   },
   "textencoder-constructor-non-utf.any.js": {
-    "requires": ["full-icu"],
-    "skip": "The iso-8859-16 encoding is not supported"
+    "requires": ["full-icu"]
   },
   "idlharness.any.js": {
     "requires": ["small-icu"]
@@ -76,12 +73,10 @@
     "requires": ["small-icu"]
   },
   "legacy-mb-schinese/gbk/gbk-decoder.any.js": {
-    "requires": ["full-icu"],
-    "skip": "The gbk encoding is not supported"
+    "requires": ["full-icu"]
   },
   "legacy-mb-schinese/gb18030/gb18030-decoder.any.js": {
-    "requires": ["full-icu"],
-    "skip": "The gb18030 encoding is not supported"
+    "requires": ["full-icu"]
   },
   "textdecoder-arguments.any.js": {
     "requires": ["small-icu"]
